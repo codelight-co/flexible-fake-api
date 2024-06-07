@@ -1,15 +1,16 @@
 {
   "name": "flexible-fake-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A flexible fake API that accepts any endpoint and returns random output",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.17.1",
+    "faker": "^5.5.3"
   }
 }
